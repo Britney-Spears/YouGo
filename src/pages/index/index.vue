@@ -109,7 +109,7 @@ export default {
 </script>
 <style lang="scss">
 // 自定义颜色
-$uRed:#ff2d4a;
+$uRed: #ff2d4a;
 // 轮播图
 .swiper {
   img {

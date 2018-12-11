@@ -20,6 +20,7 @@ $uRed: #fe2c4b;
   top: 0;
   left: 0;
   box-sizing: border-box;
+  z-index: 999;
   input {
     background-color: white;
     height: 60rpx;
