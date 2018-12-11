@@ -2,11 +2,20 @@
   <!-- 顶部搜索栏 -->
   <div class="nav">
     <i class="iconfont icon-sousuo"></i>
-    <input type="text" placeholder="搜索">
+    <input type="text" placeholder="搜索" @click="toSearch">
   </div>
 </template>
 <script>
-export default {};
+export default {
+  methods: {
+    toSearch() {
+      // 使用代码的方式 跳转到 搜索页
+      wx.navigateTo({
+        url: "/pages/search/main"
+      });
+    }
+  }
+};
 </script>
 <style lang="scss">
 // 自定义变量
