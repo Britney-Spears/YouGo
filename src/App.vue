@@ -3,6 +3,11 @@ export default {};
 </script>
 
 <style>
+/* 给顶部设置一个padding-top */
+.nav-container {
+  padding-top: 100rpx;
+}
+
 /*
   字体图标1.0.1   字体图标文件只能使用线上路径或者 base64
 */
