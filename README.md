@@ -1,6 +1,6 @@
 # my-project
 
-> mpVue初体验
+> mpVue小程序
 
 ## Build Setup
 
